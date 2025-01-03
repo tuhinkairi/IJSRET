@@ -1,7 +1,7 @@
 <template>
   <div class="paperlist-container" v-if="listVisible && !paperPage">
     <div class="row paperBox paperHeading mb-4 p-2 ">
-      <h1>{{ cYear }} | Volume {{ cVolume }} - Issue {{ cIssue }}</h1>
+      <h2>{{ cYear }} | Volume {{ cVolume }} - Issue {{ cIssue }}</h2>
     </div>
     <div
       class="row paperBox mb-3 justify-content-between"
@@ -9,7 +9,7 @@
       :key="paper.paper_uniqueid"
     >
       <div class="col-8 col-sm-9 p-3">
-        <h2>{{ paper.paper_title }}</h2>
+        <h3>{{ paper.paper_title }}</h3>
         <p><b>Author:</b> {{ paper.paper_author }}</p>
         <p><b>Article Type:</b> {{ paper.paper_articletype }}</p>
         <p><b>Pages:</b> {{ paper.paper_pages }}</p>
