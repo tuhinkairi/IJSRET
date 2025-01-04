@@ -2,7 +2,7 @@
   <div class="paperdetails-container" v-if="paperPage">
     <div class=" paperBox mb-4 p-3">
       <div class="header-container  handelPaperDetails">
-        <h1 style=" max-width: 400px;">{{ paperDetails.paper_title }}</h1>
+        <h3 style=" max-width: 400px;">{{ paperDetails.paper_title }}</h3>
         <div class="">
           <b-button 
           style="margin-top:24px ;"
