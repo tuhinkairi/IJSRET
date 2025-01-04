@@ -1,12 +1,9 @@
 <template>
   <div class="paperlist-container" v-if="listVisible && !paperPage">
-<<<<<<< HEAD
+
     <div class="row paperBox paperHeading mb-4 p-2 " style="font-size: .8rem;" >
       <h1>{{ cYear }} | Volume {{ cVolume }} - Issue {{ cIssue }}</h1>
-=======
-    <div class="row paperBox paperHeading mb-4 p-2 ">
-      <h2>{{ cYear }} | Volume {{ cVolume }} - Issue {{ cIssue }}</h2>
->>>>>>> 678d022a08fb6646a1a46e4757130c1c028a861f
+
     </div>
     <div
       class="row paperBox mb-3 justify-content-between"
