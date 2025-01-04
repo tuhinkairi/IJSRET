@@ -10,7 +10,7 @@
                   @click="openIndexingURL(data.indexing_url)"
                   :title="data.indexing_name"
                 >
-                <img alt="image" :src="data.indexing_image_url" class="rounded mx-auto d-block" width="350" height="250" />
+                <img alt="image" :src="data.indexing_image_url" class="rounded mx-auto d-block"  style="max-width:250px ; max-height:150px ;" />
                 </div>
               </div>
             </div>

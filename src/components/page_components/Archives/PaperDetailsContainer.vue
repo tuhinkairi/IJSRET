@@ -2,10 +2,11 @@
   <div class="paperdetails-container" v-if="paperPage">
     <div class=" paperBox mb-4 p-3">
       <div class="header-container  handelPaperDetails">
-        <h1 style=" max-width: 400px;">{{ paperDetails.paper_title }}</h1>
+        <h1 class="">{{ paperDetails.paper_title }}</h1>
         <div class="">
           <b-button 
-          style="margin-top:24px ;"
+          style="margin-top:24px; margin-left: 10px ; width: 150px;" 
+          
             variant="outline-primary"
             @click="downloadPDF(paperDetails.paper_url)"
             >Download PDF</b-button

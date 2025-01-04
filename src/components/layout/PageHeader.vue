@@ -30,9 +30,6 @@
       <div class="container">
         <div class="page-header-text wow animate__animated animate__fadeInDown">
           <h1 class="page-title">{{ pageTitle }}</h1>
-          <span>{{ parentPage }}</span>
-          <span class="span-divider font-weight-bold">|</span>
-          <span class="font-weight-bold">{{ pageTitle }}</span>
           <div class="page-banner-shape-title">
             <img
               src="@/assets/Images/dot.png"

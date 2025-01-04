@@ -15,9 +15,7 @@
                 <img
                   :src="data.indexing_image_url"
                   class="rounded mx-auto d-block"
-                  width="350"
-                  height="250"
-                  alt="image"
+                  style="max-width:250px ; max-height:150px ;" alt="image"
                 />
               </div>
             </div>

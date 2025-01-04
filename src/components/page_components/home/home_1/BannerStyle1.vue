@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="banner">
-      <VueSlickCarousel v-bind="settings" class="home-slider">
+      <VueSlickCarousel v-bind="settings" class="home-slider" style="position: relative; z-index: 10;">
         <template #prevArrow>
           <button class="slick-prev slick-arrow">
             <font-awesome-icon :icon="['fas', 'long-arrow-alt-left']" />
@@ -17,8 +17,8 @@
 
             <div class="row justify-content-between">
               <div class="col-lg-12 col-md-12">
-                <div class="banner-text wow animate__animated animate__fadeInDown">
-                  <h1 class="heading-title">International Journal of Scientific Research in Engineering & Technology
+                <div class="banner-text  wow animate__animated animate__fadeInDown">
+                  <h1 class="heading-title text-center px-lg-5">International Journal of Scientific Research in Engineering & Technology
                   </h1>
                   <p class="banner-sub-content "><span class="essn-content">e-ISSN:2583-1240</span>, Follows UGC-CARE
                     Guidelines
@@ -29,7 +29,7 @@
                   <p class="banner-sub-content">High Impact factor, Bi-Monthly, Multidisciplinary Journal
 
                   </p>
-                  <p class="banner-sub-content">CrossRef DOI (Digital Object Identifier) allotted to all published
+                  <p class="banner-sub-content px-lg-5">CrossRef DOI (Digital Object Identifier) allotted to all published
                     papers.
                     Indexed by Google Scholar, Elsevier-Mendeley and many other research databases
                   </p>
@@ -94,13 +94,6 @@ export default {
   }
 }
 
-.banner-text h1 {
-  margin-left: 30px;
-}
-
-.banner-text p {
-  margin-left: 30px;
-}
 
 .large-blue-button {
   margin-left: 30px;
@@ -151,14 +144,7 @@ export default {
   border-radius: 15px;
 }
 
-.banner-text h1 {
-  margin-left: 30px;
-  text-align: center;
-}
 
-.banner-text p {
-  margin-left: 30px;
-}
 
 .large-blue-button {
   margin-left: 30px;
