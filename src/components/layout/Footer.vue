@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="footer-area">
-      <div class="container position-relative">
+      <div class="container">
         <div class="row">
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <h2>Contact Us</h2>
@@ -11,10 +11,10 @@
               nagar, Ariyalur-621713.<br />Tamilnadu, India.
             </p>
           </div>
-          <div class="col-md-5 col-lg-6 col-sm-12">
+          <div class="col-sm-6 col-lg-2">
             <h2>Quick Links</h2>
             <ul>
-              <div class="row">
+              <div class="row row-cols-lg-1">
                 <div class="col">
                   <li><router-link to="/" >Home</router-link></li>
                   <li><router-link to="/ethics" >About Us</router-link></li>
@@ -30,7 +30,7 @@
               </div>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
             <h2>Submission Guideliness</h2>
             <ul>
               <li><router-link to="/editorial-board">Editorial Management System</router-link></li>
@@ -46,7 +46,7 @@
               <li><router-link to="/publication-ethics-policy">Publication Ethics Policy</router-link></li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-9 col-12">
+          <div class="col-lg-3 col-md-6 col-sm-9 col-12">
             <h2>Our Newsletter</h2>
             <p>
               Subscribe to our mailing list to get the up dates to your email

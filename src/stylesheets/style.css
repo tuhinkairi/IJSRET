@@ -927,7 +927,7 @@ section.footer-area ul li a:hover {
 }
 
 section.footer-area ul {
-    max-height: 182px;
+    min-height: 182px;
     list-style: none;
     display: flex;
     flex-flow: wrap column;
