@@ -2,7 +2,7 @@
   <div>
     <section class="footer-area">
       <div class="container">
-        <div class="row">
+        <div class="row position-relative">
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <h2>Contact Us</h2>
             <p>
@@ -57,7 +57,7 @@
               <input type="submit" value="Subscribe" />
             </form>
           </div>
-          <a class="go-to-top goToTopIcon" href="#"
+          <a class="go-to-top goToTopIcon position-absolute" href="#"
             ><font-awesome-icon :icon="['fas', 'chevron-up']"
           /></a>
         </div>

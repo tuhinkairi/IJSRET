@@ -1024,7 +1024,6 @@ section.footer-area input[type="submit"]:active {
 
 a.go-to-top {
     position: absolute;
-    top: 93%;
     left: calc(100% + 256px);
     color: white;
     background: #1e2a78;
